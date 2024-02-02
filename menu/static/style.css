@@ -1,0 +1,58 @@
+.menu {
+    background-color: #E64A19;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li {
+    margin: 0px -7px 0 0;
+    display: inline-block;
+    background-color: #E64A19;
+}
+
+
+.menu a,
+strong {
+    display: block;
+    padding: 0 10px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.menu strong {
+    color: #000000;
+}
+
+.menu a:hover {
+    background-color: #000000;
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.menu ul li:hover>ul {
+    display: inherit;
+}
+
+.menu ul ul li {
+    min-width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+.menu ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
